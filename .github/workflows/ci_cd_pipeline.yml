@@ -44,7 +44,7 @@ jobs:
 
       - name: Upload Notebooks to Databricks
         run: |
-          databricks workspace import_dir notebooks /Repos/CI-CD_test/Projet_Databricks_CI-CD/notebooks -o
+          databricks workspace import_dir notebooks /Repos/CI-CD_test/Projet_Databricks_CI-CD/notebooks 
 
       - name: Trigger Databricks Job
         run: |
