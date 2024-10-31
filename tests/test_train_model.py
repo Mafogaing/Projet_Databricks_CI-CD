@@ -1,4 +1,4 @@
-from Notebooks.train_model import main
+from notebooks.train_model import main
 import os
 
 def test_model_training():
